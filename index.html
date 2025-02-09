@@ -8,25 +8,19 @@
     <title>Trove Of Tastes</title>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container navbar-content">
-            <div class="nav-top">
-                <a href="#" class="nav-brand">
-                <img src="Untitled_design__1_-removebg-preview.png" alt="">
-                Trove Of Tastes
-                </a>
-                <div class="search-container">
-                    <input type="search" class="search-input" placeholder="search recipes..." id="searchInput">
-                    <a href="#">Logout</a>
-                </div>
+    <div class="login-container">
+        <form id="loginForm" class="login-form">
+            <img src="Untitled_design__1_-removebg-preview.png" alt="" class="login-logo">
+            <h2>Login ke Trove Of Tastes</h2>
+            <div class="form-group">
+                <input type="email" placeholder="Email" required>
             </div>
-            <div class="nav-categories" id="categoryButtons"></div>
-        </div>
-    </nav>
-
-    <main class="container">
-        <div class="recipes-grid" id="recipesContainer"></div>
-    </main>
+            <div class="form-group">
+                <input type="password" placeholder="Password" required>
+            </div>
+            <button type="submit" class="login-btn"><a href="Trove Of Tastes.html">Login</a></button>
+        </form>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
